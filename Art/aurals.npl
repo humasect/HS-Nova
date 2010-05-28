@@ -1,0 +1,5 @@
+[
+("Test",Aural [Render Silent,Render (SineOsc 440)]),
+("Test_1sine",Aural [Render (SineOsc 1000)]),
+("Test_2sines",Aural [Render (SineOsc 440),Render (SineOsc 880)])
+]

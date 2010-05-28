@@ -1,0 +1,49 @@
+Sep 30 - Oct 1 (12hrs)
+
+- make milestones (this file)
+- make design document (website 50%)
+
+- by god, 'abstract away' stuff. factor. refactor. simplify. again. more. continuations .. liftM, simplify ! refactor!
+
+- complete proc/synth/mute
+- sound synthesis
+- gradient and other procedurals
+
+[Prototype] Oct 1 - Oct 7
+
+- new geometry: ellipse, circle
+- finish proc editing in editor
+
+- player ship
+- shooting bullets
+- rooms
+- map
+- enemies per room
+- score
+
+[Beta] Oct 7 - Oct 14
+
+- two stages
+- two musics
+- sound effects
+- more enemies
+- more rooms
+
+[Demo] Oct 14 - Oct 21
+
+- title screen
+- 5 stages
+- 5 bosses
+- more sounds
+- more music
+
+[Final] Oct 21 - Oct 28
+
+- testing
+- polishing
+- web page
+
+Oct 28 - Nov 1
+
+- finish web page
+- sell game

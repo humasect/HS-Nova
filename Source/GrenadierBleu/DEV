@@ -1,0 +1,35 @@
+- deep blue ship (0,0,1)
+- mint green outline
+- brown/grey thrusters and details
+- cyan thrust
+- orange cursor
+- orange highlight
+- cyan/grey windshield
+
+like metroid+pn03+descent
+
+- rooms in a dungeon, not too colorful , mix between pn03/metroid/descent
+- go through doors like metroid/pn03/descent
+- bullet hell
+- map like metroid/pn03
+- random room mission mode
+? some missions are driving vehicle?
+? or, some missions have blue safely guard vehicle (wheel) to deliver package
+- indoor mechanical and some nature areas
+- many wall mounted turrets and guns as well as flying ships
+- rooms are chunk sizes; aka 1 screen = 1x1; there is 1x2 2x1 2x2 etc.
+
+- use physics
+- controls like PVGame
+- gatling gun
+- all guns are fast and satisfying
+- allows cursor (aimer) to push the screen as long as camera and ship are in view, no zoom.
+- keep camera for single-screen rooms
+? can shoot ground with aimer
+- one hit kill (or two or three)
+? experience points for ... 
+- needs rockets (metroid)
+- status display. not HUD, but seperate from game screen. nonintrusive. 64 height.
+- crosshair should be huma icon ! it should rotate and the lines should zoom in/out depending on actions,
+  like cyborg
+- screen needs to shake a lot because of intensity.

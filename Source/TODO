@@ -1,0 +1,134 @@
+- Able to reload engines:
+  - Merge Edit and Play into Boot
+  - games can have arguments if they want.
+
+** let's DSL everything. honestly.
+ -haskell types.
+ - need parsec  ? real world haskell www
+
+
+
+
+
+---------------- DEV -----------------
+
+- use viewport as the winding bounds size when clearing procedural
+- actually, we have to just re-render the winding filled with max Z.
+   (also written below in 'notes')
+
+- smart triangulation of windings
+- polygon clipping to screen (save vtx,texcoord,color) when rendering?
+- use glRect, heheheehrherhehehehe
+
+- bytestring-lexing for Data.ByteString.Lex.Double
+- 'binary' package for Data.Binary using bytestring
+
+MAKE.
+HUMASECT.
+LOGO.
+IN..
+EDITOR.
+
+--------------- AUDIO ----------------
+
+- Procedural uses images/models
+- Synth uses sounds/models ..
+
+--------------- EDITOR ---------------
+
+- inverted curves
+	- curves for shading
+	- also for making corners and such
+- sometimes we want AutoCurve to happen before procedural, other times we want it to happen after
+  mutators ...
+- Combiner/Performance
+
+- ok, for mutators in browser: left click is "set current" (for anims and whatnot)
+  and right click is "apply to geometry" like freeze it in.
+- should there be no 'trans' in parts? ie. if it just uses the current mutation on selected parts for 'preview'..
+	-naw.
+
+
+** Editor
+
+- make OldWinding.hs so both Editor and BuildContent can use it
+- saving and loading is kind of lame. we dont really need it.
+- persistent save...save save save ... keep like 20 backups. nice undo too if needed.
+- test models in editor, render as green+0.5alpha
+- does not quit properly in Windows when clicking close button.
+
+** UI
+
+- add string lengths max for EditLabels . see "lblPattern" in Browser.hs
+- Move current withContents into browse panel to see.
+- allow to build a withContents in browse panel, and to name it, and save in file contents.nhs.
+- able to edit and view contents completely in editor
+- Highlight selected contents
+
+- modelbutton for showing borders
+- click on "75%" should reset to 100%.
+- windingbutton for set colors 0% 50% 100%
+- right click and left click on grid too, to smaller and bigger of it ?
+- validate label editing, show red box when readIO fails on subjective type
+	- edit text of u,v,r,g,b,a in steps
+	- color editors
+- read each line in safeReadScript to show line where parse error occurs.
+- reset lastCursor when enter/exit the panels.
+- we can still drag when inside panels..
+
+
+** Winding/Part
+
+- move collision for Parts into Dynamics/Winding
+- dragging UVs have less increments the greater the grid size. this is because they are simulating texture size.
+  what should be done? cursor size? or just invert
+	- same in calcPartUV/calcStepUV.
+- able to scale UVs uniform
+- cut tool to cut selected polygons (75%)
+- Double Click to add vertices to winding (within cursorR) .. start winding too? ..
+- um, clean up "rotateContentsBy" and "moveContentsBy" -- using RImage and RModel
+- rotations from cursor and from center of winding.
+- select by u,v texlines
+- export RModel in selection by winding flag .. ?
+	- we will have like shift+rclick for making a part, but this part will be made normally,
+	then it is flagged, and the model is exported as such (add button next to flags in panel,
+	called 'export with')
+- drag yellow part bounds to shear
+
+** Rendering
+
+- instead of drawing models in editor, draw names. we use them for music/fx too, and can be quite intrusive.
+- when rendering model as Smaller, have it relative to model size of course; also translation has errors.
+- render uncolored wireframe...
+- text procedural
+
+----------------------------  notes --------
+
+- we clear the depth buffer after each proc render, because they can overlap. grid lines for example.
+  we can clear with viewport set to winding bounds. we can also try to reset that place of depth buffer just
+  like how we set it up in the first place to render the procedurals. (also written above)
+
+- user can make concave after making windings. i like it this way because it enforces concentration, and a 
+  certain kind of creativity and so many things. one can get lazy with ability for "any polygon",
+  instead of using potential creativities.
+
+- for select with making winding, cannot select unless points are inside either/or. do not worry about things like
+  crossing +'s where no points are in any other. because there is no edge collide for windings (we can add..)
+
+------------- later -----------------
+
+- BuildContents doesn't know if something was deleted or not. (moved/renamed)
+
+- i am not sure if i like the disappearing panels.
+
+- add a view to see textures or hear sounds.
+
+- able to import model into current model.(Editor.Operations.reloadFile)
+
+- add "make auto concave to convex" in making menu, only when is concave.
+
+- editor does not need to findAllResourceDirs/resNames while rendering the browser while moving mouse.
+	- we can cache this in RScript/browser.nhs or something.
+
+- use GLFW ? may not work with threads/shell/doubleclick
+

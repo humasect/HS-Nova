@@ -1,0 +1,15 @@
+[
+Static,
+Invert,
+FlipX,FlipY,FlipU,FlipV,
+AutoCurve 4,AutoCurve 8,AutoCurve 32,
+
+LightHead 0.0 0.0,LightHead 0.5 0.5, LightTail 0.0 0.0, LightTail 0.5 0.5,
+
+Multiply (1.5,1.5),
+Add (16,16),
+CenterRotate 45,
+RotateAround (0,0) 45,
+
+Star 0.1, Star 0.33, Star 0.66, Star 0.9
+]

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="humasect.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2393">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop2395" />
+      <stop
+         id="stop2401"
+         offset="1"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2393"
+       id="linearGradient2399"
+       x1="340.64517"
+       y1="230.48717"
+       x2="340.64517"
+       y2="774.23718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2393"
+       id="linearGradient3261"
+       x1="240"
+       y1="732.36218"
+       x2="240"
+       y2="292.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.000127,0,0,0.9704689,-4.6766439e-2,6.0171898)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2393"
+       id="linearGradient3269"
+       x1="360"
+       y1="912.36218"
+       x2="360"
+       y2="552.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.000127,0,0,0.9704689,-4.6766439e-2,6.0171898)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2393"
+       id="linearGradient3277"
+       x1="540"
+       y1="732.36218"
+       x2="540"
+       y2="292.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.000127,0,0,0.9704689,-4.6766439e-2,6.0171898)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.57982756"
+     inkscape:cx="322.8639"
+     inkscape:cy="462.83649"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="794"
+     inkscape:window-height="739"
+     inkscape:window-x="244"
+     inkscape:window-y="22">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2389" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient3269);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.9851864px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 129.96975,774.98008 L 219.98118,677.93319 L 179.9761,629.40974 L 239.98372,571.1816 L 289.99008,610.00036 L 370.00024,542.06753 L 450.0104,619.70505 L 400.00405,668.2285 L 470.01295,726.45663 L 520.0193,687.63788 L 600.02946,765.27539 L 570.02565,804.09415 L 480.01422,852.6176 L 370.00024,872.02698 L 239.98372,852.6176 L 159.97356,794.38946 L 129.96975,774.98008 z"
+       id="path3259"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <path
+       style="fill:url(#linearGradient3277);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.9851864px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 357.1559,214.63018 L 442.01949,214.63019 L 569.31488,283.25271 L 668.32241,406.77324 L 696.61027,530.29377 L 696.61027,626.36529 L 640.03454,736.16132 L 604.67471,770.47258 L 505.66718,688.12556 L 463.23538,729.29907 L 392.51572,660.67655 L 442.01949,612.64079 L 364.22786,537.15602 L 371.29983,434.22224 L 434.94752,427.36 L 434.94752,331.28847 L 378.37179,331.28847 L 357.1559,214.63018 z"
+       id="path3255"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <path
+       style="fill:url(#linearGradient3261);fill-rule:evenodd;stroke:#000000;stroke-width:0.9851864px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 139.97102,774.98008 L 79.963397,716.75194 L 39.958315,580.88629 L 59.960856,425.61126 L 129.96975,318.85968 L 199.97864,250.92685 L 319.99389,212.10809 L 370.00024,212.10809 L 380.00151,338.26905 L 440.00913,338.26905 L 440.00913,435.31595 L 370.00024,435.31595 L 370.00024,542.06753 L 289.99008,610.00036 L 239.98372,571.1816 L 169.97483,639.11443 L 209.97991,677.93319 L 139.97102,774.98008 z"
+       id="path3253"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:17.00578499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2387"
+       sodipodi:cx="394"
+       sodipodi:cy="554.36218"
+       sodipodi:rx="284"
+       sodipodi:ry="284"
+       d="M 678,554.36218 A 284,284 0 1 1 110,554.36218 A 284,284 0 1 1 678,554.36218 z"
+       transform="matrix(1.1554226,0,0,1.1618835,-87.13287,-102.0571)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2423"
+       width="20.002541"
+       height="116.45628"
+       x="359.99896"
+       y="221.81279"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2429"
+       width="90.011436"
+       height="19.409378"
+       x="359.99896"
+       y="328.56436"
+       ry="9.704689"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2431"
+       width="20.002541"
+       height="116.45628"
+       x="430.00787"
+       y="328.56436"
+       ry="9.704689"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2437"
+       width="20.002541"
+       height="106.75159"
+       x="359.99896"
+       y="435.31595"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2441"
+       width="90.011436"
+       height="19.409378"
+       x="359.99896"
+       y="425.61127"
+       ry="9.704689"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2445"
+       width="19.708191"
+       height="118.24915"
+       x="-653.94818"
+       y="-452.72958"
+       transform="matrix(-0.7176677,-0.6963857,0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2447"
+       width="88.686859"
+       height="19.708191"
+       x="-653.94818"
+       y="-344.33453"
+       ry="9.8540955"
+       transform="matrix(-0.7176677,-0.6963857,0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2449"
+       width="19.708191"
+       height="118.24915"
+       x="-584.96948"
+       y="-344.33453"
+       ry="9.8540955"
+       transform="matrix(-0.7176677,-0.6963857,0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2451"
+       width="19.708191"
+       height="108.39506"
+       x="-653.94818"
+       y="-235.93945"
+       transform="matrix(-0.7176677,-0.6963857,0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2453"
+       width="88.686859"
+       height="19.708191"
+       x="-653.94818"
+       y="-245.79355"
+       ry="9.8540955"
+       transform="matrix(-0.7176677,-0.6963857,0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2455"
+       width="19.708191"
+       height="118.24915"
+       x="119.38102"
+       y="-971.38019"
+       transform="matrix(-0.7176677,0.6963857,-0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2457"
+       width="88.686859"
+       height="19.708191"
+       x="119.38102"
+       y="-862.98517"
+       ry="9.8540955"
+       transform="matrix(-0.7176677,0.6963857,-0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2459"
+       width="19.708191"
+       height="118.24915"
+       x="188.35968"
+       y="-862.98517"
+       ry="9.8540955"
+       transform="matrix(-0.7176677,0.6963857,-0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2461"
+       width="19.708191"
+       height="108.39506"
+       x="119.38102"
+       y="-754.59009"
+       transform="matrix(-0.7176677,0.6963857,-0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <rect
+       style="fill:#000000"
+       id="rect2463"
+       width="88.686859"
+       height="19.708191"
+       x="119.38102"
+       y="-764.44415"
+       ry="9.8540955"
+       transform="matrix(-0.7176677,0.6963857,-0.7176677,-0.6963857,0,0)"
+       inkscape:export-filename="/Users/humasect/Novapilot/Art/humasect.png"
+       inkscape:export-xdpi="17.082232"
+       inkscape:export-ydpi="17.082232" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0000;fill-opacity:0;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3247"
+       sodipodi:sides="5"
+       sodipodi:cx="80"
+       sodipodi:cy="452.36218"
+       sodipodi:r1="239.83275"
+       sodipodi:r2="194.02877"
+       sodipodi:arg1="-0.58463339"
+       sodipodi:arg2="0.043685141"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 280,320 L 267.68731,601.67132 L -4.0028598,677.00249 L -159.60394,441.88839 L 15.919483,221.24872 L 280,320 z" />
+  </g>
+</svg>

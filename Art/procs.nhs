@@ -1,0 +1,6 @@
+[
+Default,
+EditNode "Copyright (c) 2008 Lyndon Tremblay",
+Gradient North,
+Textured "empty.nvi", Model "empty.nvi", Image "empty.nvi"
+]

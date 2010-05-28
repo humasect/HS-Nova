@@ -1,0 +1,8 @@
+[
+Silent,
+SineOsc 100,
+SineOsc 400,
+Volume 1.0,
+Volume 0.5,
+Volume 1.5
+]

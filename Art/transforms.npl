@@ -1,0 +1,5 @@
+[
+("TwoStars",[Star 0.1,Star 0.6]),
+("TotalInvert",[FlipX,FlipY,Invert]),
+("GlowShade",[Multiply 1.5,LightHead 0.5 0.5,LightTail 0.5 0.5])
+]

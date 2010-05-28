@@ -1,0 +1,8 @@
+[
+("Default",Visual [Render Default]),
+("LightHead0",Visual [Trans (LightHead 0.0 0.0),Render Default]),
+("LightHead.5",Visual [Trans (LightHead 0.5 0.5),Render Default]),
+("D_LightTail0",Visual [Trans (LightTail 0.0 0.0),Render Default]),
+("D_LightTail.5",Visual [Trans (LightTail 0.5 0.5),Render Default]),
+("Test",Visual [Trans (AutoCurve 8),Trans ClosedFan,Trans (LightTail 0.1 0.1),Render Default])
+]
