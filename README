@@ -1,0 +1,9 @@
+Nova Game Development System
+----------------------------
+
+The editor can be seen here: http://hoovy.org/Projects/Past/Nova/content.html
+
+Included is also the lightweight OpenGL and OpenAL wrappers for Haskell,
+GL-enabled editing shell for reloading code while the game executes, the editor, the Blender export script, and very small amount of samples. It runs very fast on the Intel GMA 950 graphics accelerator. With a powerful "polygon shader" and "geometry shader" and "audio synthesizer shader" system.
+
+There are also included several scratch text files used during development and possibly some other files which make little sense or hold uninteresting details.
