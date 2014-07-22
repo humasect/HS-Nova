@@ -4,7 +4,7 @@ GHC = ghc $(RTS) -hidir ../build/ -odir ../build/
 HSCS = Nova/GL.hs Nova/AL.hs
 
 #-optc-O3 -optc-march=pentium4 -optc-mfpmath=sse
-#-fexcess-precision 
+#-fexcess-precision
 #-no-recomp
 #-fspec-constr
 

@@ -108,7 +108,7 @@ EDITOR.
   we can clear with viewport set to winding bounds. we can also try to reset that place of depth buffer just
   like how we set it up in the first place to render the procedurals. (also written above)
 
-- user can make concave after making windings. i like it this way because it enforces concentration, and a 
+- user can make concave after making windings. i like it this way because it enforces concentration, and a
   certain kind of creativity and so many things. one can get lazy with ability for "any polygon",
   instead of using potential creativities.
 

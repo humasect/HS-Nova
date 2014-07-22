@@ -20,7 +20,7 @@
 (add-hook 'haskell-mode-hook 'imenu-add-menubar-index)
 (global-set-key [(control meta down-mouse-3)] 'imenu)
 
-;(set-default-font "-apple-dejavu sans mono-medium-r-normal--0-0-0-0-m-0-mac-roman") 
+;(set-default-font "-apple-dejavu sans mono-medium-r-normal--0-0-0-0-m-0-mac-roman")
 (setq mac-allow-anti-aliasing t)
 
 ;(setq haskell-font-lock-symbols 'unicode)
@@ -33,7 +33,7 @@
                         ('up-arrow 8593)
                         ('right-arrow 8594)
                         ('down-arrow 8595)
-  
+
                         ;; boxes
                         ('double-vertical-bar #X2551)
 						('proportion 8759)
@@ -44,8 +44,8 @@
 						('integral #X2A0D)
 						('function #X192)
 						('sum #X2211)
-						;('divide 
-                        
+						;('divide
+
                         ;; relational operators
                         ('equal #X003d)
                         ('not-equal #X2260)
@@ -55,12 +55,12 @@
                         ('greater-than #X003e)
                         ('less-than-or-equal-to #X2264)
                         ('greater-than-or-equal-to #X2265)
-  
+
                         ;; logical operators
                         ('logical-and #X2227)
                         ('logical-or #X2228)
                         ('logical-neg #X00AC)
-  
+
                         ;; misc
                         ('nil #X2205)
                         ('horizontal-ellipsis #X2026)
@@ -70,7 +70,7 @@
                         ('for-all #X2200)
                         ('there-exists #X2203)
                         ('element-of #X2208)
-  
+
                         ;; mathematical operators
                         ('square-root #X221A)
                         ('squared #X00B2)
@@ -108,14 +108,14 @@
                         ('delta #X03B4))))
 
   (defun substitute-pattern-with-unicode (pattern symbol)
-    "Add a font lock hook to replace the matched part of PATTERN with the 
+    "Add a font lock hook to replace the matched part of PATTERN with the
   Unicode symbol SYMBOL looked up with UNICODE-SYMBOL."
     (interactive)
     (font-lock-add-keywords
      nil `((,pattern (0 (progn (compose-region (match-beginning 1) (match-end 1)
                                               ,(unicode-symbol symbol))
                               nil))))))
-  
+
   (defun substitute-patterns-with-unicode (patterns)
     "Call SUBSTITUTE-PATTERN-WITH-UNICODE repeatedly."
     (mapcar #'(lambda (x)
@@ -172,7 +172,7 @@
            ;(cons "\\(\\.\\.\\)" 'horizontal-ellipsis)
 		   ;(cons "\\(\\.\\)" 'compose)
 		   )))
-  
+
   (add-hook 'haskell-mode-hook 'haskell-unicode)
 
  (defun pretty-greek ()
@@ -180,12 +180,12 @@
   ;(let ((greek '("a" "b" "g" "d" "e" "j" "h" "c" "i" "k" "l" "m" "n" "xi" "o" "p" "r" "z" "s" "t" "u" "v" "x" "y" "w")))
     (loop for word in greek
           for code = 97 then (+ 1 code)
-          do  (let ((greek-char (make-char 'greek-iso8859-7 code))) 
+          do  (let ((greek-char (make-char 'greek-iso8859-7 code)))
                 (font-lock-add-keywords nil
                                         `((,(concatenate 'string "\\(^\\|[^a-zA-Z0-9]\\)\\(" word "\\)[a-zA-Z]")
                                            (0 (progn (decompose-region (match-beginning 2) (match-end 2))
                                                      nil)))))
-                (font-lock-add-keywords nil 
+                (font-lock-add-keywords nil
                                         `((,(concatenate 'string "\\(^\\|[^a-zA-Z0-9]\\)\\(" word "\\)[^a-zA-Z]")
                                            (0 (progn (compose-region (match-beginning 2) (match-end 2)
                                                                      ,greek-char)
